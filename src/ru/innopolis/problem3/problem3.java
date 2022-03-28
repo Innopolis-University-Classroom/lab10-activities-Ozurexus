@@ -45,3 +45,32 @@ public class CAT implements Colour {
         System.out.println(color);
     }
 }
+public class BEAR implements Colour {
+
+    String color;
+
+    public BEAR(String color) {
+        this.color = color;
+    }
+
+    @Override
+    public void PrintColor() {
+        System.out.println("The bear's colour is ");
+        System.out.println(color);
+    }
+}
+
+public class DUCK implements Colour {
+
+    String color;
+
+    public DUCK(String color) {
+        this.color = color;
+    }
+
+    @Override
+    public void PrintColor() {
+        System.out.println("The duck's colour is ");
+        System.out.println(color);
+    }
+}
