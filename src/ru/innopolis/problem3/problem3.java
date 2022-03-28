@@ -30,3 +30,18 @@ public interface Colour {
     void PrintColor();
 
 }
+
+public class CAT implements Colour {
+
+    String color;
+
+    public CAT(String color) {
+        this.color = color;
+    }
+
+    @Override
+    public void PrintColor() {
+        System.out.println("The cat's colour is ");
+        System.out.println(color);
+    }
+}
